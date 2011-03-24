@@ -1,29 +1,40 @@
-# LESS TextMate bundle
+![TextMate Bundle Logo](./logo.png)
 
-Syntax highlighting for `.less` files. To learn more about [LESS][], see <http://lesscss.org/docs.html>.
+# LESS TextMate Bundle
 
-This bundle was forked from `appden/less.tmbundle` but has since been rewritten from scratch (the language syntax).
+## Syntax support for LESS (.less) CSS files.
 
-[`sample.less`](http://github.com/rsms/less.tmbundle/blob/master/sample.less):
+This Bundle gives you syntax support (highlighting/recognition) for the LESS 
+dynamic stylesheet language. Nothing more. It's a stripped down version of 
+[appden](https://github.com/appden) & [rsms](https://github.com/rsms)'s 
+[less.tmbundle](https://github.com/appden/less.tmbundle). If you plan to use
+the ruby gem use their repository instead of this one.
 
-<img src="http://github.com/rsms/less.tmbundle/raw/master/sample.png" width="600" height="465" />
+### No compiling support... Get off my lawn!
 
-<small>Rendered in the ["Hunch Dark dimmed" theme](http://github.com/rsms/workenv/blob/master/textmate/Hunch-Dark-dimmed.tmTheme)</small>
+There are a few ways to use LESS in your projects and they all seem to fit into 
+one of two categories;
 
-## Compiling to CSS (⌘B)
+*  **On demand** - [Client side](http://lesscss.org/#-client-side-usage) in the
+   browser or [Server side](http://lesscss.org/#-server-side-usage) using 
+   [Node.js](http://nodejs.org/).
+   
+*  **Pre-compiled** - Using a Ruby Gem (``sudo gem install less``) 
+   or [Less.app](http://incident57.com/less/) on the desktop.
 
-Runs `lessc` on the current file, saving to the same file name with a .css extension (e.g. style.less => style.css). When there is `lessc: somefile.less` somewhere in the current file, that file is compiled instead.
+The original version of this bundle assumes you use the ruby gem and so every time you save a file it will compile the CSS or error out if you don't have the gem installed. I don't want to use the ruby gem. I use Less.app. I also noticed that while saving large files via the ruby gem equipped bundle, it would lock up my TextMate session until the CSS compilation was complete. By using my simple bundle and an external compiler such as Less.app you get rid of that lock up. You save time. You keep it gangsta.
 
-Compiling requires some version of `lessc` to be in your `PATH`.
+![Screenshot of less.tmbundle in action](./screenshot.png)
 
 ## Authors
 
 * Rasmus Andersson <http://hunch.se/> rsms@github
+* Ben Keating <http://bpk.deepdream.com/> bkeating@github
 * Scott Kyle <http://appden.com/> appden@github
 
 ## License (MIT)
 
-Copyright (c) 2010 Scott Kyle and Rasmus Andersson
+Copyright (c) 2010 Rasmus Andersson, Ben Keating and Scott Kyle
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -37,11 +48,8 @@ all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
-
-[LESS]: http://lesscss.org

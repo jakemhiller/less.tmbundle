@@ -2,14 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>name</key>
+    <key>name</key>
 	<string>LESS</string>
+	<key>description</key>
+	<string>&lt;a href=&quot;http://lesscss.org/&quot;&gt;LESS&lt;/a&gt; is dynamic stylesheet language which extends CSS with behavior such as variables, mixins, operations and functions.</string>
 	<key>uuid</key>
-	<string>D1D51EE5-E89F-4B14-8AE4-FC364E540B47</string>
-	<key>ordering</key>
-	<array>
-		<string>78788223-5E5E-434E-98BE-17BCDF600611</string>
-		<string>9343D324-75A1-4733-A5C0-5D1D4B6182D0</string>
-	</array>
+	<string>06c13532-b1ed-4d84-8d63-7c6e319bd37d</string>
+    <key>contactEmailRot13</key>
+    <string>ora@qrrcqernz.pbz</string>
+    <key>contactName</key>
+    <string>Ben Keating</string>
 </dict>
 </plist>
+
+
+
+
