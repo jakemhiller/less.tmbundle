@@ -1,8 +1,6 @@
 ![TextMate Bundle Logo](https://github.com/bkeating/less.tmbundle/raw/master/logo.png)
 
-# LESS TextMate Bundle
-
-## Syntax support for LESS (.less) CSS files.
+# LESS TextMate Bundle - Syntax support for LESS (.less) CSS files.
 
 This Bundle gives you syntax support (highlighting/recognition) for the LESS 
 dynamic stylesheet language. Nothing more. It's a stripped down version of 
