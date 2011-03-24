@@ -1,4 +1,4 @@
-![TextMate Bundle Logo](./logo.png)
+![TextMate Bundle Logo](https://github.com/bkeating/less.tmbundle/raw/master/logo.png)
 
 # LESS TextMate Bundle
 
@@ -22,9 +22,15 @@ one of two categories;
 *  **Pre-compiled** - Using a Ruby Gem (``sudo gem install less``) 
    or [Less.app](http://incident57.com/less/) on the desktop.
 
-The original version of this bundle assumes you use the ruby gem and so every time you save a file it will compile the CSS or error out if you don't have the gem installed. I don't want to use the ruby gem. I use Less.app. I also noticed that while saving large files via the ruby gem equipped bundle, it would lock up my TextMate session until the CSS compilation was complete. By using my simple bundle and an external compiler such as Less.app you get rid of that lock up. You save time. You keep it gangsta.
+The original version of this bundle assumes you use the ruby gem and so every 
+time you save a file it will compile the CSS or error out if you don't have the 
+gem installed. I don't want to use the ruby gem. I use Less.app. I also noticed 
+that while saving large files via the ruby gem equipped bundle, it would lock 
+up my TextMate session until the CSS compilation was complete. By using my 
+simple bundle and an external compiler such as Less.app you get rid of that 
+lock up. You save time. You keep it gangsta.
 
-![Screenshot of less.tmbundle in action](./screenshot.png)
+![Screenshot of less.tmbundle in action](https://github.com/bkeating/less.tmbundle/raw/master/screenshot.png)
 
 ## Authors
 
